@@ -1,0 +1,35 @@
+﻿@model List<SistemaHorarios.Web.Models.AsignaturaViewModel>
+
+<h2 class="mb-3">Asignaturas</h2>
+
+<a asp-action="Create" class="btn btn-success mb-3">
+    ➕ Nueva Asignatura
+</a>
+
+<table class="table table-bordered">
+    <thead class="table-dark">
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Horas Semanales</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var asignatura in Model)
+        {
+            <tr>
+                <td>@asignatura.IdAsignatura</td>
+                <td>@asignatura.Nombre</td>
+                <td>@asignatura.HorasSemanales</td>
+                <td>
+                    <a asp-action="Delete"
+                       asp-route-id="@asignatura.IdAsignatura"
+                       class="btn btn-danger btn-sm">
+                        Eliminar
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

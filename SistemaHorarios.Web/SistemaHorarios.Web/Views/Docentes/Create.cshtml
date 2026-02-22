@@ -1,0 +1,22 @@
+﻿@model SistemaHorarios.Web.Models.DocenteViewModel
+
+<h2>Crear Docente</h2>
+
+<form asp-action="Create" method="post">
+    <div class="mb-3">
+        <label>Nombre</label>
+        <input asp-for="Nombre" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Especialidad</label>
+        <input asp-for="Especialidad" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label>Horas Máximas</label>
+        <input asp-for="HorasMaximas" type="number" class="form-control" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>

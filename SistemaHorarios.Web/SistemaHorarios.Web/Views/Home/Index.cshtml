@@ -1,0 +1,187 @@
+﻿@model List<SistemaHorarios.Web.Models.ScheduleViewModel>
+
+@{
+    ViewData["Title"] = "Horario Escolar";
+    var dias = new[] { "Lunes", "Martes", "Miércoles", "Jueves", "Viernes" };
+    var horas = new[] {
+        "07:30-08:20",
+        "08:20-09:10",
+        "09:10-10:00",
+        "10:20-11:10",
+        "11:10-12:00",
+        "12:00-12:50"
+    };
+}
+
+<h2 class="text-center mt-4 mb-4">📅 Horario Semanal</h2>
+
+<div class="container">
+    <p>Cantidad de horarios: @Model.Count</p>
+    <table class="table table-bordered text-center align-middle shadow">
+        <thead class="table-dark">
+            <tr>
+                <th>Hora</th>
+                @foreach (var dia in dias)
+                {
+                    <th>@dia</th>
+                }
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                var bloques = Model
+                .Select(m => new
+                {
+                    Inicio = TimeSpan.Parse(m.HoraInicio),
+                    Fin = TimeSpan.Parse(m.HoraFin)
+                })
+                .Distinct()
+                .OrderBy(b => b.Inicio)
+                .ToList();
+            }
+
+            @foreach (var bloque in bloques)
+            {
+                <tr>
+                    <td class="fw-bold">
+                        @bloque.Inicio.ToString(@"hh\:mm") -
+                        @bloque.Fin.ToString(@"hh\:mm")
+                    </td>
+
+                    @foreach (var dia in dias)
+                    {
+                        var clase = Model.FirstOrDefault(m =>
+                        m.DiaSemana.ToLower() == dia.ToLower() &&
+                        TimeSpan.Parse(m.HoraInicio) == bloque.Inicio &&
+                        TimeSpan.Parse(m.HoraFin) == bloque.Fin);
+
+                        <td style="min-width:150px;">
+                            @if (clase != null)
+                            {
+                                <div class="p-2 bg-primary text-white rounded">
+                                    <strong>@clase.Asignatura</strong><br />
+                                    @clase.Docente<br />
+                                    Aula: @clase.Aula
+                                </div>
+                            }
+                        </td>
+                    }
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>
+
+<div class="text-center mt-4">
+    <button class="btn btn-success btn-lg shadow"
+            data-bs-toggle="modal"
+            data-bs-target="#modalAgregar">
+        ➕ Agregar Clase
+    </button>
+</div>
+
+<div class="modal fade" id="modalAgregar" tabindex="-1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <form asp-action="Create" method="post">
+                <div class="modal-header">
+                    <h5 class="modal-title">Agregar Clase</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body">
+
+                    <div class="mb-3">
+                        <label>Día</label>
+                        <select name="DiaSemana" class="form-control">
+                            <option>Lunes</option>
+                            <option>Martes</option>
+                            <option>Miércoles</option>
+                            <option>Jueves</option>
+                            <option>Viernes</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Hora Inicio</label>
+                        <input type="time" name="HoraInicio" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Hora Fin</label>
+                        <input type="time" name="HoraFin" class="form-control" />
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Docente (ID)</label>
+                        <div class="mb-3">
+                            <label>Docente</label>
+                            <select name="IdDocente" class="form-control">
+                                <option value="">Seleccione un docente</option>
+                                @foreach (var docente in ViewBag.Docentes)
+                                {
+                                    <option value="@docente.IdDocente">
+                                        @docente.Nombre - @docente.Especialidad
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Asignatura (ID)</label>
+                        <div class="mb-3">
+                            <label>Asignatura</label>
+                            <select name="IdAsignatura" class="form-control">
+                                <option value="">Seleccione una asignatura</option>
+                                @foreach (var asignatura in ViewBag.Asignaturas)
+                                {
+                                    <option value="@asignatura.IdAsignatura">
+                                        @asignatura.Nombre
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Aula (ID)</label>
+                        <div class="mb-3">
+                            <label>Aula</label>
+                            <select name="IdAula" class="form-control">
+                                <option value="">Seleccione un aula</option>
+                                @foreach (var aula in ViewBag.Aulas)
+                                {
+                                    <option value="@aula.IdAula">
+                                        @aula.Nombre (Cap: @aula.Capacidad)
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label>Grupo (ID)</label>
+                        <div class="mb-3">
+                            <label>Grupo</label>
+                            <select name="IdGrupo" class="form-control">
+                                <option value="">Seleccione un grupo</option>
+                                @foreach (var grupo in ViewBag.Grupos)
+                                {
+                                    <option value="@grupo.IdGrupo">
+                                        @grupo.Nombre - @grupo.NivelEducativo
+                                    </option>
+                                }
+                            </select>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="modal-footer">
+                    <button type="submit" class="btn btn-primary">Guardar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

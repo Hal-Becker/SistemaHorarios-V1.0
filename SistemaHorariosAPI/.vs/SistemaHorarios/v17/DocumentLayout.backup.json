@@ -1,0 +1,362 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\controllers\\schedulecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\dtos\\grupodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\dtos\\grupodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\dtos\\auladto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\dtos\\auladto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\dtos\\asignaturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\dtos\\asignaturadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\dtos\\docentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\dtos\\docentedto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\dtos\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\dtos\\horariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Migrations\\20260222034833_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SistemaHorarios\\Migrations\\20260222034833_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\domain\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\domain\\horario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\controllers\\gruposcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\domain\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\domain\\grupo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\controllers\\aulascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\controllers\\aulascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\domain\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\domain\\aula.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\controllers\\asignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\controllers\\asignaturascontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\controllers\\docentescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\infrastructure\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\domain\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\domain\\docente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\domain\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\domain\\asignatura.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|c:\\users\\usuario\\source\\repos\\sistemahorarios\\sistemahorarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{EC5B50F9-83C7-420A-9885-628097534EB8}|SistemaHorarios\\SistemaHorarios.csproj|solutionrelative:sistemahorarios\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 10,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GrupoDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\GrupoDto.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\DTOs\\GrupoDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\GrupoDto.cs",
+              "RelativeToolTip": "SistemaHorarios\\DTOs\\GrupoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:04:46.478Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AulaDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\AulaDto.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\DTOs\\AulaDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\AulaDto.cs",
+              "RelativeToolTip": "SistemaHorarios\\DTOs\\AulaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:04:23.421Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AsignaturaDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\AsignaturaDto.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\DTOs\\AsignaturaDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\AsignaturaDto.cs",
+              "RelativeToolTip": "SistemaHorarios\\DTOs\\AsignaturaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:03:58.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DocenteDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\DocenteDto.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\DTOs\\DocenteDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\DocenteDto.cs",
+              "RelativeToolTip": "SistemaHorarios\\DTOs\\DocenteDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:03:30.621Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "HorarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\HorarioDto.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\DTOs\\HorarioDto.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\DTOs\\HorarioDto.cs",
+              "RelativeToolTip": "SistemaHorarios\\DTOs\\HorarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T04:03:04.6Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ScheduleController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\ScheduleController.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Controllers\\ScheduleController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\ScheduleController.cs",
+              "RelativeToolTip": "SistemaHorarios\\Controllers\\ScheduleController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:52:43.654Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "20260222034833_InitialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Migrations\\20260222034833_InitialCreate.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Migrations\\20260222034833_InitialCreate.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Migrations\\20260222034833_InitialCreate.cs",
+              "RelativeToolTip": "SistemaHorarios\\Migrations\\20260222034833_InitialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T03:48:33.846Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "AsignaturasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\AsignaturasController.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Controllers\\AsignaturasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\AsignaturasController.cs",
+              "RelativeToolTip": "SistemaHorarios\\Controllers\\AsignaturasController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAQwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T01:02:30.182Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GruposController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\GruposController.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Controllers\\GruposController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\GruposController.cs",
+              "RelativeToolTip": "SistemaHorarios\\Controllers\\GruposController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAA7wC4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T01:04:33.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Grupo.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Grupo.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Domain\\Grupo.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Grupo.cs",
+              "RelativeToolTip": "SistemaHorarios\\Domain\\Grupo.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:09:47.967Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "AulasController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\AulasController.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Controllers\\AulasController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\AulasController.cs",
+              "RelativeToolTip": "SistemaHorarios\\Controllers\\AulasController.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAuwC8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T01:03:34.922Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Horario.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Horario.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Domain\\Horario.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Horario.cs",
+              "RelativeToolTip": "SistemaHorarios\\Domain\\Horario.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAUwCAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:10:12.172Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "DocentesController.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\DocentesController.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Controllers\\DocentesController.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Controllers\\DocentesController.cs",
+              "RelativeToolTip": "SistemaHorarios\\Controllers\\DocentesController.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAowCoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-22T01:01:12.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Aula.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Aula.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Domain\\Aula.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Aula.cs",
+              "RelativeToolTip": "SistemaHorarios\\Domain\\Aula.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAcwA8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:09:09.418Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Infrastructure\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Infrastructure\\ApplicationDbContext.cs",
+              "RelativeToolTip": "SistemaHorarios\\Infrastructure\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:36:02.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Program.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Program.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Program.cs",
+              "RelativeToolTip": "SistemaHorarios\\Program.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABsAAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:37:29.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Docente.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Docente.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Domain\\Docente.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Docente.cs",
+              "RelativeToolTip": "SistemaHorarios\\Domain\\Docente.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:07:51.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Asignatura.cs",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Asignatura.cs",
+              "RelativeDocumentMoniker": "SistemaHorarios\\Domain\\Asignatura.cs",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\Domain\\Asignatura.cs",
+              "RelativeToolTip": "SistemaHorarios\\Domain\\Asignatura.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-21T23:08:45.037Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\appsettings.json",
+              "RelativeDocumentMoniker": "SistemaHorarios\\appsettings.json",
+              "ToolTip": "C:\\Users\\USUARIO\\source\\repos\\SistemaHorarios\\SistemaHorarios\\appsettings.json",
+              "RelativeToolTip": "SistemaHorarios\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-21T23:36:35.044Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
