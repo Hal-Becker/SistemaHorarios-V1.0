@@ -1,5 +1,13 @@
 Sistema de Horarios dinámicos
 
+Requisitos:
+
+•	Visual Studio 2022
+•	.NET 8 o .NET 7
+•	SQL Server
+•	SQL Server Management Studio (SSMS)
+
+
 ¿Como usar?
 
 1-	Base de datos:
